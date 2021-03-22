@@ -1,16 +1,19 @@
-# week6
+# Week6
 
-A new Flutter project.
+## Tampilan Awal Percobaan 1
+![1](images/item1.jpeg)
 
-## Getting Started
+## Menambahkan Data
+![2](images/item1.1.jpeg)
 
-This project is a starting point for a Flutter application.
+## Hasil Data yang ditambahkan
+![3](images/item1.2.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
+## Tampilan Awal Percobaan 2
+![4](images/item2.jpeg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Menambahkan Data
+![5](images/item2.1.jpeg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hasil Data yang ditambahkan
+![6](images/item2.2.jpeg)
