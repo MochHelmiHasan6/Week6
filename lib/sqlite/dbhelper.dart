@@ -11,7 +11,7 @@ class DbHelper {
   Future<Database> initDb() async {
     //untuk menentukan nama database dan lokasi yg dibuat
     Directory directory = await getApplicationDocumentsDirectory();
-    String path = directory.path + 'item.db';
+    String path = directory.path + 'itemBaru.db';
     //create, read databases
     var itemDatabase = openDatabase(path, version: 4, onCreate: _createDb);
 
@@ -25,7 +25,9 @@ class DbHelper {
  CREATE TABLE item (
  id INTEGER PRIMARY KEY AUTOINCREMENT,
  name TEXT,
- price INTEGER
+ kode TEXT,
+ price INTEGER,
+ stok INTEGER
  )
  ''');
   }
