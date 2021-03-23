@@ -13,11 +13,11 @@ class Item {
   String get kode => this._kode;
   set kode(String value) => this._kode = value;
 
-  get price => this._price;
+  get price => this._price = value;
   set price(value) => this._price;
 
   get stok => this._stok;
-  set stok(value) => this._stok;
+  set stok(value) => this._stok = value;
 
   Item(this._name, this._kode, this._price, this._stok);
 
